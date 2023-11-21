@@ -18,7 +18,7 @@ let products = [
     {
         id: 1,
         name: 'Veg Chick',
-        image: '1.PNG',
+        image: '1.png',
         price: '$7'
     },
     {
@@ -54,7 +54,7 @@ let products = [
     {
         id: 7,
         name: 'Kabab',
-        image: '/View/kabab.jpg',
+        image: 'kabab.jpg',
         price: '$10'
     },
     {
@@ -112,7 +112,7 @@ function initApp(){
         let newDiv = document.createElement('div');
         newDiv.classList.add('item');
         newDiv.innerHTML = `
-            <img src="image/${value.image}">
+            <img src="/View/${value.image}">
             <div class="title">${value.name}</div>
             <div class="price">${value.price.toLocaleString()}</div>
             <button onclick="addToCard(${key})">Add To Card</button>`;
@@ -149,7 +149,7 @@ function reloadCard(){
         if(value != null){
             let newDiv = document.createElement('li');
             newDiv.innerHTML = `
-                <div><img src="image/${value.image}"/></div>
+                <div><img src="/View/${value.image}"/></div>
                 <div>${value.name}</div>
                 <div>
                     <button onclick="changeQuantity(${key}, ${value.quantity - 1})">-</button>

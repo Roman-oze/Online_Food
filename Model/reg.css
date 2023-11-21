@@ -1,6 +1,6 @@
 body{
 
-    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(image/bg7.jpg);   
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(/View/bg7.jpg);   
     background-repeat: no-repeat;
     background-size:cover;
     padding:10px 20px;
