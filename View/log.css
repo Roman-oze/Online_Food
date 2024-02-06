@@ -1,0 +1,117 @@
+body{
+    margin: 0;
+ 
+    padding: 0;
+ }
+ .hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(rgba(43, 38, 38, 0.4),rgba(0,0,0,0.4)),url(/Model/bg0.avif);
+     background-position: center;
+     background-size:cover;
+    
+ }
+ .local{
+   box-shadow: 0px 5px 15px rgba(8, 46, 37, 0.4);
+   height: 500px;
+   width: 350px;
+   background-color: rgb(54, 129, 100);
+   border-radius: 15px;
+   display: flex;
+ 
+   text-align: center;
+   /* top:18%;
+   left:33%; */
+   margin: 6% auto;
+   padding: 5px;
+ 
+ }
+ .btn{
+     height: 40px;
+     width: 110px;
+     padding: 5px;
+     margin: 30px;
+     box-shadow: 0px 5px 15px rgba(199, 109, 7, 0.719);
+     font-family: Georgia, 'Times New Roman', Times, serif;
+     font-size: large;
+     border-top: 0;
+     border-left: 0;
+     border-right: 0;
+     border-bottom: 20px;
+     border-radius: 30px;
+     color: rgb(12, 12, 12);
+     background-color: rgba(21, 202, 112, 0.877);
+     cursor: pointer;
+ 
+     
+ }
+
+ .btn a{
+    text-decoration: none;
+    color: rgb(12, 12, 12);
+   
+ 
+ }
+
+ 
+ .number1{
+    /* color: black;
+     width: 90%;
+     height: 45px;
+     margin: 20px; */
+     border-radius: 35px;
+     border: none;
+     
+ }
+ /* .number1:focus{
+  
+    color: white;
+   
+ } */
+
+ /* .number2:focus{
+  
+    color: white;
+   
+ } */
+ 
+ /*  */
+ .button.btnn{
+     /* height: 40px;
+     width: 150px;
+     padding: 5px;
+     margin:50px;
+     box-shadow: 0px 5px 15px rgba(199, 109, 7, 0.719);
+     font-family: Georgia, 'Times New Roman', Times, serif;
+     font-size: large;
+     border-top: 0;
+     border-left: 0;
+     border-right: 0;
+     border-bottom: 20px;
+     border-radius: 30px;
+     color: rgb(12, 12, 12);
+     background-color: rgba(13, 175, 204, 0.877);
+     top: 50%;
+     left: 50%;
+     cursor: pointer; */
+     width: 150px;
+     height: 40px;
+     padding: 5px;
+     margin:50px;
+     box-shadow: 0px 5px 15px rgba(199, 109, 7, 0.719);
+     font-family: Georgia, 'Times New Roman', Times, serif;
+     border-radius:24px;
+     background-color: rgba(13, 204, 77, 0.877);
+     text-align: center;
+     border: none;
+     padding-left: 10px;
+ }
+
+ .forget{
+    display:inline-grid;
+ }
+b{
+    color: red;
+    cursor: pointer;
+}
